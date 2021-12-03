@@ -1,0 +1,21 @@
+.van-nav-bar {
+    width: 100% !important;
+    height: 8% !important;
+    .van-nav-bar__content {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .icon-fanhuitubiao {
+        // color: rgb(128, 72, 52);
+        color: #d4237a;
+    }
+}
+
+::v-deep .van-nav-bar__title {
+    color: #d4237a !important;
+}
+
+::v-deep .van-nav-bar__left {
+    // color: ;
+    padding: 0 !important;
+}

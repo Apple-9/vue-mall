@@ -1,0 +1,81 @@
+#cart {
+    width: 100%;
+    height: 100%;
+    // padding: 10px;
+    .title {
+        width: 100%;
+        height: 10%;
+        font-size: 20px;
+        line-height: 80px;
+        // background: url("/img/logo1.jpg") no-repeat;
+        background: url("/img/bg.gif") no-repeat;
+        background-size: cover;
+        // background-position: 0 -60px;
+        background-position: 0 calc(-70px);
+        .name {
+            // width: 100%;
+            display: inline-block;
+            height: 100%;
+            color: #EF006E;
+            font-weight: 600;
+            // margin-left: 20px;
+            border-radius: 80% 100% 80% 10%;
+            // border-radius: 100% 80% 30% 100%;
+            background: #fff;
+            padding: 0 calc(3px);
+        }
+        // margin: 10px 0;
+    }
+    .empty-cart {
+        width: 100%;
+        height: 80%;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+    }
+    .cart-list {
+        width: 100%;
+        height: 74%;
+        .goods-list {
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            // height: 550px;
+            overflow-y: scroll;
+            background: mintcream;
+            .goods {
+                // background: #000;
+                height: 20%;
+                margin-bottom: calc(10px);
+            }
+        }
+    }
+    .van-submit-bar {
+        bottom: 10% !important;
+    }
+     ::deep .van-card__bottom {
+        position: relative!important;
+    }
+    .van-stepper {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        // margin-left: 100px;
+    }
+    .van-card .van-card__content {
+        padding: 5px 0!important;
+    }
+    // .van-cell__title {
+    //     display: flex !important;
+    //     justify-content: space-between;
+    // }
+    .van-swipe-cell__wrapper {
+        height: 100%!important;
+        .delete-button.van-button {
+            height: 100% !important;
+        }
+    }
+     ::v-deep .van-button--danger {
+        background: #d4237a;
+    }
+}

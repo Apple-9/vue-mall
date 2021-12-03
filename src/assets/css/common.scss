@@ -1,0 +1,49 @@
+$base-color:#c6538c;
+
+/* 居中类名 */
+
+.van-col {
+    font-size: 20px!important;
+}
+
+::v-deep .van-button--danger {
+    background: #d4237a!important;
+    border-radius: 0%;
+}
+
+.van-card {
+    font-size: 14px!important;
+    // .van-card__content {
+    //     padding: 10px;
+    // }
+    .van-card__desc {
+        margin-top: 8px!important;
+    }
+    .van-card__title {
+        font-size: 16px!important;
+        font-weight: 600!important;
+    }
+}
+
+.van-form {
+    .van-cell {
+        font-size: 18px!important;
+        // font-weight: 500!important;
+    }
+    .van-field__label {}
+    .goto-register {
+        // color: #f40;
+        .van-cell__value--alone {
+            color: #EF006E;
+            text-decoration-line: underline;
+            font-style: italic;
+        }
+    }
+}
+
+.van-cell-group {
+    .van-cell {
+        font-size: 20px;
+        padding: 15px 0!important;
+    }
+}

@@ -1,0 +1,28 @@
+#address {
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    .address-list {
+        width: 100%!important;
+        height: 85%!important;
+        overflow-y: scroll;
+    }
+     ::v-deep .van-nav-bar .van-icon {
+        color: #d4237a !important;
+    }
+     ::v-deep .van-nav-bar__title {
+        color: #d4237a !important;
+    }
+     ::v-deep .van-tag--danger {
+        background: #d4237a !important;
+    }
+     ::v-deep .van-button--danger {
+        background: #d4237a !important;
+    }
+     ::v-deep .van-address-item .van-radio__icon--checked .van-icon {
+        background: #d4237a !important;
+        border-color: #d4237a !important;
+    }
+}

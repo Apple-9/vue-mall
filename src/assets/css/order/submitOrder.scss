@@ -1,0 +1,32 @@
+#submit-order {
+    width: 100%;
+    height: 100%;
+    .order-detail {
+        width: 100%;
+        height: 92%;
+        padding: 2%;
+        box-sizing: border-box;
+        .default-address {
+            height: 10%;
+            margin-left: calc(12px);
+            color: #f40;
+            .van-col {
+                font-weight: 400;
+                font-size: 14px!important;
+            }
+        }
+        .goods-list {
+            height: 80%;
+            .tip {
+                position: fixed;
+                left: 10%;
+                bottom: 10%;
+                color: #f40;
+                font-size: 14px;
+            }
+        }
+    }
+    .van-submit-bar {
+        height: 10%!important;
+    }
+}

@@ -1,0 +1,60 @@
+#product {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    #goods {
+        width: 100%;
+        height: 92%;
+        padding: 2% 5%;
+        box-sizing: border-box;
+        .goods-detail {
+            width: 100%;
+            height: 50%;
+            font-size: 20px;
+            // line-height: 30px;
+            .goods {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                font-weight: 700;
+                .name {
+                    font-size: 25px;
+                }
+                .sale-num {
+                    color: rgb(194, 194, 194);
+                    font-size: 16px;
+                }
+            }
+            .delivery {
+                margin-top: calc(10px);
+                font-size: 16px;
+                color: orange;
+            }
+            .price {
+                display: flex;
+                margin-top: calc(10px);
+                .origin-price {
+                    text-decoration: line-through;
+                    font-size: 18px;
+                }
+                .del-price {
+                    margin-right: 20px;
+                    font-weight: 600;
+                    color: #f40;
+                }
+            }
+        }
+    }
+    .buy-button {
+        width: 100%;
+        height: 10%;
+    }
+    .van-goods-action {
+        position: fixed;
+        bottom: 0 !important;
+        width: 100%;
+        padding: 1%!important;
+        box-sizing: border-box!important;
+    }
+}

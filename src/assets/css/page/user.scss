@@ -1,0 +1,55 @@
+#user {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    .about-me {
+        width: 100%;
+        height: 10%;
+        padding: 5%;
+        .img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10%;
+        }
+        .status {
+            width: 100%;
+            height: 100%;
+            font-size: 25px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            // margin-top: 8px;
+        }
+    }
+    .more-detail {
+        margin-top: 3%;
+        padding: 3%;
+        .icon-gerenxinxi {
+            color: orange;
+        }
+        .icon-order {
+            color: #47e047;
+        }
+        .icon-shouhuodizhi1 {
+            color: #66CDAA;
+        }
+        .icon-shezhi {
+            color: #FF0000;
+        }
+        .iconfont {
+            font-size: 20px;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+    }
+    .login-status {
+        // margin-top: 60px;
+        position: fixed;
+        left: 50%;
+        bottom: 20%;
+        transform: translate(-50%);
+        width: 95%;
+    }
+}
